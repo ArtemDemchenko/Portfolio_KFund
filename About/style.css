@@ -1,0 +1,195 @@
+body {
+    animation: changebg 60s infinite;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info {
+    margin: 1px;
+    padding: 10px;
+    justify-content: left;
+    box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.28);
+    background-color: whitesmoke;
+    border-radius: 30px;
+    justify-content: center;
+}
+.me {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 300px;
+}
+.edu {
+    margin: 1px;
+    height: 305px;
+    width: 100%;
+}
+.progs {
+    margin: 1px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    height: 270px;
+    width: 100%;
+
+}
+.maint {
+    font-weight: 400;
+}
+#myphoto {
+    background-size: contain;
+    background: url(img/изображение_viber_2021-11-05_19-20-37-969.jpg);
+    height: 400px;
+    width:250;
+    margin: 10px;
+    border-radius: 25px;
+}
+a {
+    text-decoration: none;
+    animation: changea 60s infinite;
+}
+h4 {
+    text-align: left;
+}
+ol {
+    padding-left: 40px;
+    text-decoration: none;
+    text-align: left;
+}
+.icons {
+    margin:auto;
+    justify-content: center;
+    display: flex;
+}
+.form {
+    padding-top: 25px;
+}
+.icon {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+}
+.contact {
+    margin-left: 20px;
+    display:flex;
+    width: 910px;
+    height: 260px;
+}
+.formi {
+    margin: 10px;
+}
+.kurwanet {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+.networks {
+    padding-top: 100px;
+    display: block;
+}
+#mail {
+    height: 50px;
+    width: 50px;
+}
+#back {
+    font-weight: 500;
+}
+#f {
+    justify-content: center;
+}
+#myphoto:hover {
+    background: url(img/изображение_viber_2021-11-05_19-20-37-969.jpg);
+    background-size: contain;
+}
+#aboba {
+    width: 100%;
+}
+@keyframes changebg {
+    0%{background-color: cornflowerblue;}
+    25%{background-color: darksalmon;}
+    50%{background-color: crimson;}
+    75%{background-color: darksalmon;}
+    100%{background-color: cornflowerblue;}
+}
+@keyframes changea {
+    0%{color: cornflowerblue;}
+    25%{color: darksalmon;}
+    50%{color: crimson;}
+    75%{color: darksalmon;}
+    100%{color: cornflowerblue;}
+}
+@media screen  and (max-width: 1000px) {
+    .info {
+        width: 500px;
+    }
+    .edu {
+        width: 500px;
+    }
+    .progs {
+        height: 225px;
+        width: 500px;
+    }
+    .contact {
+        margin-left: 0px;
+        width: 500px;
+    }
+    p {
+        width: 100%;
+    }
+    .icon {
+        height: 100px;
+        width: 100px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .info {
+        padding: 2px;
+        width: 400px;
+    }
+    .me {
+        width: 400px;
+    }
+    .progs {
+        height: 190px;
+    }
+    .icon {
+        height: 65px;
+        width: 65px;
+    }
+    .kurwanet {
+        justify-content: center;
+        width: 200px;
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .info {
+        padding: 2px;
+        width: 300px;
+    }
+    .me {
+        width: 300px;
+    }
+    .progs {
+        width: 300px;
+        height: 190px;
+    }
+    .icon {
+        height: 65px;
+        width: 65px;
+    }
+    .kurwanet {
+        display: none;
+    }
+    .form {
+        width: 300px;
+    }
+}

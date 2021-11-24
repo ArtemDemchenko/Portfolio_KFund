@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ad {
+    background-color: rgba(34, 34, 34, 0.33);
+    display: block;
+    border-radius: 30px;
+    margin: 20px;
+    margin-right: 5px;
+    height: 800px;
+    width: 400px;
+    box-shadow: 5px 0px 15px 5px rgba(0,0,0,0.46);
+    padding: 20px
+}
+ul::before {
+    content: "Pseudo classes";
+    height: 20px;
+    width: 20px;
+    color: blue;
+    font-size: 18px;
+}
+ul:hover::before {
+    font-size: 20px;
+}
+ul:active::before {
+    color: chartreuse;
+}
+ul li:nth-child(1) {
+    color: red;
+}
+ul li:nth-child(2) {
+    color: blue;
+}
+ul li:nth-child(3) {
+    color: green;
+}
+ul li:nth-child(odd) {
+	border: 2px solid red;
+}
+ul li:nth-child(4n) {
+	border: 1px solid green;
+}
+ul li:nth-child(-n+2):hover {
+	color: gold;
+}
+ul li:nth-child(n+4):nth-child(-n+6):hover {
+	color: greenyellow;
+}
+ul li:active {
+    color: rgb(21, 22, 21);
+}
+ul li:nth-last-child(1) {
+	color: hotpink;
+}
+
+.ff {
+    padding-left: 20px;
+}
+.ff div:first-of-type {
+    color: red;
+}
+.ff p:first-of-type {
+    color: blue;
+}
+.ff div:last-of-type {
+    color: red;
+}
+.ff p:last-of-type {
+    color: blue;
+}
+.ff::after{
+    content: "Pseudo classes";
+    color: green;
+    font-size: 18px;
+}
+.ff:hover::after {
+    color: yellowgreen;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:visited {
+    color: red;
+}

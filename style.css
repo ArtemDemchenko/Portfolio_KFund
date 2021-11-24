@@ -1,0 +1,134 @@
+body {
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    animation: changebg 60s infinite;
+}
+header {
+    color: rgb(134, 134, 134);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.28);
+    background-color: whitesmoke;
+}
+.main {
+    padding: 10px;
+    background-color: rgb(199, 199, 199);
+    width: header;
+}
+.footer {
+    box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.28);
+    height: 100px;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-inner {
+    padding-top: 20px;
+    color: rgb(134, 134, 134);
+}
+h2 {
+    margin-right: 20px;
+}
+hr {
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+}
+.a {
+    animation: changea 60s infinite;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.button-view:hover a {
+    color: whitesmoke;
+}
+.sprint {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+}
+p {
+    height: 50px;
+    color: rgb(134, 134, 134);
+}
+.card:hover p {
+    color: whitesmoke;
+}
+.card {
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 175px;
+    border-radius: 25px;
+    border: 4px solid rgb(199, 199, 199);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);
+}
+.card:hover {
+    background-color: rgb(199, 199, 199);
+    border-radius: 25px;
+    border: 4px solid whitesmoke;
+    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.32);
+}
+h3 {
+    color: rgb(134, 134, 134);
+}
+.card:hover h3 {
+    color: whitesmoke;
+}
+.button-view {
+    position: static;
+    box-shadow: 4px 3px 15px 5px rgba(0,0,0,0.25);
+    background-color: whitesmoke;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 7px;
+    animation: changebg 60s infinite;
+    animation: changeb 60s infinte;
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+}
+.button-view:hover {
+    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.23);
+    animation: changebg 60s infinite;
+    color: whitesmoke;
+    font-weight: 800;
+    border: 3px solid whitesmoke;
+
+}
+@keyframes changebg {
+    0%{background-color: cornflowerblue;}
+    25%{background-color: darksalmon;}
+    50%{background-color: crimson;}
+    75%{background-color: darksalmon;}
+    100%{background-color: cornflowerblue;}
+}
+@keyframes changea {
+    0%{color: cornflowerblue;}
+    25%{color: darksalmon;}
+    50%{color: crimson;}
+    75%{color: darksalmon;}
+    100%{color: cornflowerblue;}
+}
+@keyframes changeb {
+    0%{border: 3px solid cornflowerblue;}
+    25%{border: 3px solid darksalmon;}
+    50%{border: 3px solid crimson;}
+    75%{border: 3px solid darksalmon;}
+    100%{border: 3px solid cornflowerblue;}
+}

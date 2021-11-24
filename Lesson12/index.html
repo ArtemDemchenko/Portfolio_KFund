@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Form</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_QE8EBUdaG8t5zXqowaoc4');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_an0k1ge', 'template_o1maseu', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body background="img/blurred_bg_01.jpg">
+    <div class="main">
+        <div class="container">
+            <div class="main-inner">
+                <div class="left">
+                    <h2>Contact Us</h2>
+                    <form id="contact-form">
+                        <div><input type="hidden" name="contact_number"></div>
+                        <div><label>Name</label></div>
+                        <div><input type="name" name="name" placeholder="Name"></div>
+                        <div><label>Email</label></div>
+                        <div><input type="reply_to" name="reply_to" placeholder="Email"></div>
+                        <div><label>Phone</label></div>
+                        <div><input type="phone" name="phone" placeholder="Phone"></div>
+                        <div><label>Message</label></div>
+                        <div><textarea name="message" placeholder="Type your message"></textarea></div>
+                        <div><input type="submit" value="Send"></div>
+                    </form>
+                </div>
+                <div class="right">
+                    <img src="img/Apple 1976-1998.png" alt="">
+                    <h3>Welcome</h3>
+                    <h4>If you wanna contact us</h4>
+                    <h4>complete form</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
