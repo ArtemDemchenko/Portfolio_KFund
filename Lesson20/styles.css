@@ -61,3 +61,35 @@ body {
   h1 {
       font-size: 72px;
   }
+  @media all and (max-width: 800px) {
+    body { 
+      grid-template-areas: 
+        "nav nav nav"
+        "article article header"
+        "footer footer ads";
+      grid-template-rows: 1fr 1fr 1fr;  
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+  } 
+  @media all and (max-width: 575px) {
+    body { 
+      grid-template-areas: 
+        "nav nav nav"
+        "article article header"
+        "footer footer ads";
+      grid-template-rows: 1fr 1fr 1fr;  
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+  } 
+  @media all and (max-width: 320px) {
+    body { 
+      grid-template-areas: 
+        "nav"
+        "article"
+        "header"
+        "ads"
+        "footer";
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  
+      grid-template-columns: 1fr;
+   }
+  } 
