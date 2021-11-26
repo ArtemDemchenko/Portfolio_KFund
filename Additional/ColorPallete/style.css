@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(141, 141, 141);
+}
+.palette {
+    background: whitesmoke;
+    margin: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 30px;
+    border: 15px whitesmoke solid;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}   
+a {
+    text-decoration: none;
+    color: turquoise;
+}
+    .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .div12, .div13, .div14, .div15 {
+        justify-content: center;
+        text-align: center;
+        padding-top: 25px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .div1 {
+        border-top-left-radius: 25px;
+        grid-area: 1 / 1 / 2 / 2;
+        background-color: #264653;
+        color: whitesmoke;
+    }
+    .div2 {
+        grid-area: 1 / 2 / 2 / 3;
+        background-color: #2a9d8f;
+        color: whitesmoke;
+    }
+    .div3 {
+        grid-area: 1 / 3 / 2 / 4;
+        background-color: #e9c46a;
+        color: whitesmoke;
+    }
+    .div4 {
+        grid-area: 1 / 4 / 2 / 5;
+        background-color: #f4a261;
+        color: whitesmoke;
+    }
+    .div5 {
+        border-top-right-radius: 25px;
+        grid-area: 1 / 5 / 2 / 6;
+        background-color: #e76f51;
+        color: whitesmoke;
+    } 
+    .div6 {
+        border-top-left-radius: 25px;
+        grid-area: 1 / 1 / 2 / 2;
+        background-color: #8ecae6;
+        color: whitesmoke;
+    }
+    .div7 {
+        grid-area: 1 / 2 / 2 / 3;
+        background-color: #219ebc;
+        color: whitesmoke;
+    }
+    .div8 {
+        grid-area: 1 / 3 / 2 / 4;
+        background-color: #023047;
+        color: whitesmoke;
+    }
+    .div9 {
+        grid-area: 1 / 4 / 2 / 5;
+        background-color: #ffb703;
+        color: whitesmoke;
+    }
+    .div10 {
+        border-top-right-radius: 25px;
+        grid-area: 1 / 5 / 2 / 6;
+        background-color: #fb8500;
+        color: whitesmoke;
+    } 
+    .div11 {
+        border-top-left-radius: 25px;
+        grid-area: 1 / 1 / 2 / 2;
+        background-color: #e63946;
+        color: whitesmoke;
+    }
+    .div12 {
+        grid-area: 1 / 2 / 2 / 3;
+        background-color: #f1faee;
+        color: rgb(71, 71, 71);
+    }
+    .div13 {
+        grid-area: 1 / 3 / 2 / 4;
+        background-color: #a8dadc;
+        color: whitesmoke;
+    }
+    .div14 {
+        grid-area: 1 / 4 / 2 / 5;
+        background-color: #457b9d;
+        color: whitesmoke;
+    }
+    .div15 {
+        border-top-right-radius: 25px;
+        grid-area: 1 / 5 / 2 / 6;
+        background-color: #1d3557;
+        color: whitesmoke;
+    } 
