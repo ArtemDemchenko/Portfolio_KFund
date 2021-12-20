@@ -1,0 +1,290 @@
+body {
+    background: #ffffff;;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;;
+    color: rgb(36, 36, 36);
+}
+header {
+    align-content: center;
+}
+.main-inner {
+    justify-content: center;
+}
+.header-top {
+    align-items: center ;
+    justify-content: center;
+    border-bottom: whitesmoke solid 2px;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.header-top * {
+    margin-left: 15px;
+    margin-left: 15px;
+}
+.logo {
+    width: 131px;
+    height: 72px;
+}
+.languages {
+    font-size: 15px;
+}
+.valutes {
+    font-size: 15px;
+}
+.social {
+    color: rgb(36, 36, 36);
+    display: flex;
+}
+.phone {
+    font-size: 15px;
+    align-items: center ;
+    display: flex;
+}
+.phone-icon {
+    align-items: center ;
+    margin-left: 3px;
+}
+.square-50px {
+    width: 50px;
+    height: 50px;
+}
+.search-header-top {
+    display: flex;
+}
+.maistra-online, .tours-online {
+    background: #EFF3F6;
+    font-size: 16px;
+    align-items: center ;
+    font-weight: 600;
+    display: flex;
+}
+.red-square {
+    background: #DD4053;
+}
+.green-square {
+    background: #4AD295;
+}
+nav {
+    margin-top: 10px;
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35px;
+    width: 100%;
+}
+nav * {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-item {
+    font-size: 15px;
+    height: 35px;
+}
+.nav-item:hover {
+    border-bottom: tomato solid 2px;
+}
+.welcome {
+    padding-left: 25%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color: white;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, rgba(36, 36, 36, 0.5), rgba(37, 37, 37, 0.1)), url(img/Welcome.png);
+    background-size: 100%
+}
+#cost {
+    font-family: 'Open Sans', sans-serif;
+    align-items: center ;
+    text-align: center;
+    border: white solid 1px;
+    width: 240px;
+    height: 40px;
+    font-size: 24px;
+}
+#hotel {
+    margin-top: 5px;
+    width: 790px;
+    font-size: 45px;
+}
+#button-welcome {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(189, 189, 189, 0.3);
+    width: 190px;
+    height: 40px;
+    font-size: 16px;
+}
+.intro {
+    background-color: #F8F8F8;
+}
+#slider-welcome {
+    margin-top: 10px;
+    width: 100%;
+    height: 7px;
+    display: flex;
+}
+.slider-welcome-point {
+    margin-left: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    border: white solid 1px;
+}
+.slider-welcome-point:active {
+    background-color: white;
+}
+.your-operator {
+    margin-left: 200px;
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+.left-part-op {
+    width: 624px;
+}
+#high-quality-op {
+    font-weight: 500;
+    font-size: 30px;
+}
+#open-world-op {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+}
+.buttons-op {
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+}
+.button-op {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    border: #969696 solid 1px;
+}
+.button-op:hover {
+    border: none;
+    background: #BDBDBD;
+    font-weight: 500;
+    color: white;
+}
+.services-op {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.services-img-op {
+    margin-right: 10px;
+}
+.start-text {
+    font-size: 45px;
+}
+.start-button {
+    margin-left: 61px;
+    color: #969696;
+    font-size: 14px;
+    padding: 10px;
+    border: 4px #969696;
+}
+.actual {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.actual-top {
+    display: flex;
+    align-items: center;
+}
+.rec-actual {
+    height: 1px;
+    width: 340px;
+    background: #C4C4C4;
+    margin-left: 56px;
+}
+.cards {
+    display: flex;
+}
+.card {
+    margin-left: 30px;
+    height: 480px;
+    width: 327px;
+    background: #F8F8F8;
+}
+.card-top-portonovi {
+    display: flex;
+    background-repeat: no-repeat;
+    background: url(img/Portonovi.png);
+    height: 250px;
+    width: 327px;
+}
+.card-top-porto {
+    display: flex;
+    background-repeat: no-repeat;
+    background: url(img/PortoMontenegro.png);
+    height: 250px;
+    width: 327px;
+}
+.card-top-borko {
+    display: flex;
+    background: url(img/Borko.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 327px;
+}
+.card-top-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 13px;
+    background: #00000059;
+    height: 30px;
+    color: #FFFFFF;
+}
+.card-info {
+    height: 138px;
+}
+.card-info-text-first {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.card-info-text-second {
+    color: #848484;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+hr {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #E8E8E8;
+    background: #E8E8E8;
+}
+.card-bottom {
+    display: flex;
+}
+.card-price {
+    margin-top: 23px;
+    margin-left: 20px;
+    width: 158px;
+}
+.dollars {
+    color:#DD4053;
+    display: flex;
+}
