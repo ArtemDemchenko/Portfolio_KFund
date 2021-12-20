@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     background: #ffffff;;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;;
@@ -95,7 +96,7 @@ nav * {
     width: 100%;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top, rgba(36, 36, 36, 0.5), rgba(37, 37, 37, 0.1)), url(img/Welcome.png);
-    background-size: 100%
+    background-size: cover;
 }
 #cost {
     font-family: 'Open Sans', sans-serif;
@@ -285,4 +286,58 @@ hr {
 .dollars {
     color:#DD4053;
     display: flex;
+}
+.footer {
+    justify-content: center;
+    background: #F8F8F8;
+}
+.footer-top {
+    background-image: url(img/Reasonstochoose.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 507px;
+    width: 100%;
+}
+.footer-bottom {
+    background: url(img/Footerbg.png); width: 100%; height: 370px; background-repeat: no-repeat; background-size: cover; justify-content: center;
+}
+.reasons {
+    width: 100%;
+    height: 525px;
+    justify-content: center;
+    display: flex;
+}
+.reasons-inner {
+    width:1180px; height: 525px; background: white; z-index: 11; position: relative; top: -200px; display: flex; align-items: center; justify-content: center; box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.07);
+}
+.reasons-right, .reasons-left {
+    width: 500px; height: 385px;
+}
+.reasons-right *, .reasons-left * {
+    width: 413px; margin-bottom: 50px;
+}
+.info-footer {
+    display: flex; justify-content: center; align-items: center; padding-top: 40px;
+}
+.info-footer * {
+    margin-left: 100px;
+}
+.info-footer img {
+    margin-left: 0px;
+}
+.info-footer div div {
+    margin-bottom: 10px;
+}
+.footer-bottom-div {
+    height: 86px;
+}
+.bottom-footer-line {
+    width: 1920px;
+    height: 1px;
+    background: #1D1D1D33;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.text-footer {
+    z-index: 10; font-size: 40px; color: white; text-align: center; position: relative; top: -300px;
 }
