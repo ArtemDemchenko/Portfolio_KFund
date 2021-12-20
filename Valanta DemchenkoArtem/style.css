@@ -141,7 +141,6 @@ nav * {
     background-color: white;
 }
 .your-operator {
-    margin-left: 200px;
     display: flex;
     margin-top: 25px;
     padding-bottom: 25px;
@@ -201,7 +200,6 @@ nav * {
 }
 .actual {
     margin-top: 100px;
-    margin-left: 200px;
 }
 .actual-top {
     display: flex;
