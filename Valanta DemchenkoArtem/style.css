@@ -423,6 +423,13 @@ hr {
         justify-content: center;
         text-align: center;
     }
+    .your-operator {
+        justify-content: center;
+    }
+    .left-part-op {
+        justify-content: center;
+        width: 420px;
+    }
     #hotel {
         text-align: center;
         font-size: 24px;
@@ -442,7 +449,7 @@ hr {
     }
     #high-quality-op {
         font-size: 24px;
-        width: 460px;
+        width: 420px;
     }
     .info-footer {
         flex-wrap: wrap;
