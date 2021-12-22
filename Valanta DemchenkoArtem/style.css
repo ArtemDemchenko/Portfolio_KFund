@@ -145,6 +145,7 @@ nav * {
     display: flex;
     margin-top: 25px;
     padding-bottom: 25px;
+    justify-content: center;
 }
 .left-part-op {
     width: 624px;
@@ -203,6 +204,7 @@ nav * {
     margin-top: 100px;
 }
 .actual-top {
+    justify-content: center;
     display: flex;
     align-items: center;
 }
@@ -213,6 +215,8 @@ nav * {
     margin-left: 56px;
 }
 .cards {
+    justify-content: center;
+    margin-top: 40px;
     display: flex;
 }
 .card {
@@ -226,21 +230,21 @@ nav * {
     background-repeat: no-repeat;
     background: url(img/Portonovi.png);
     height: 250px;
-    width: 327px;
+    width: card;
 }
 .card-top-porto {
     display: flex;
     background-repeat: no-repeat;
     background: url(img/PortoMontenegro.png);
     height: 250px;
-    width: 327px;
+    width: card;
 }
 .card-top-borko {
     display: flex;
     background: url(img/Borko.png);
     background-repeat: no-repeat;
     height: 250px;
-    width: 327px;
+    width: card;
 }
 .card-top-text {
     font-family: 'Open Sans', sans-serif;
@@ -297,6 +301,7 @@ hr {
     background-size: cover;
     height: 507px;
     width: 100%;
+    display: flex; align-items: center; text-align: center; justify-content: center;
 }
 .footer-bottom {
     background: url(img/Footerbg.png); width: 100%; height: 370px; background-repeat: no-repeat; background-size: cover; justify-content: center;
@@ -332,7 +337,7 @@ hr {
     height: 86px;
 }
 .bottom-footer-line {
-    width: 1920px;
+    width: 100%px;
     height: 1px;
     background: #1D1D1D33;
     margin-top: 50px;
@@ -340,4 +345,143 @@ hr {
 }
 .text-footer {
     z-index: 10; font-size: 40px; color: white; text-align: center; position: relative; top: -300px;
+}
+.price-cost-doll {
+    font-size: 24px; margin-left: 5px; align-self: flex-end;
+}
+.price-whe {
+    font-size: 16px; align-self: flex-end;
+}
+.time {
+    color: #C9C9C9; font-family: 'Open Sans', sans-serif; font-size: 12px;
+}
+.date {
+    text-align:right; font-size: 12px; margin-left: 44px; margin-top: 33px; width: 79px;
+}
+.big-text {
+    font-size: 200px; font-weight: 900; color: rgba(255, 255, 255, 0.2);
+}
+.button-send {
+    margin-left: 50px; display: flex; justify-content: center; text-align: center; align-items: center; color: #DD4053; height: 50px; width: 237px; background: white;
+}
+.email {
+    height: 50px; width: 380px; background: rgba(255, 255, 255, 0.2); color: white; border: white 2px solid; display: flex; align-items: center; padding-left: 10px;
+}
+#checks {
+    display: flex; 
+}
+
+@media (min-width: 1200px) and (max-width: 1540px) {
+    .info-footer * {
+        margin-left: 25px;
+    }
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+    .info-footer * {
+        margin-left: 25px;
+    }
+    .welcome {
+        padding-left: 5%;
+    }
+    .start-text {
+        font-size: 36px;
+    }
+    .card {
+        width: 269px;
+    }
+    .card-info-text-second {
+        font-size: 14px;
+    }
+    .email {
+        width: 255px;
+    }
+    .reasons-inner {
+        width: 860px;
+    }
+    .reasons-left, .reasons-right {
+        padding-left: 20px;
+    }
+}
+@media (min-width: 480px) and (max-width: 979px) {
+    nav {
+       display: none;
+    }
+    .header-top {
+        align-items: center;
+        height: 138px;
+    }
+    .languages, .valutes, .social, .phone {
+        display: none;
+    }
+    .welcome {
+        justify-content: center;
+        padding-left: 0px;
+    }
+    #text-welcome {
+        width: 340px;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #hotel {
+        text-align: center;
+        font-size: 24px;
+        width: 340px;
+    }
+    #cost {
+        display: none;
+    }
+    #button-welcome {
+        display: none;
+    }
+    #slider-welcome {
+        padding-left: 120px;
+    }
+    .right-part-op {
+        display: none;
+    }
+    #high-quality-op {
+        font-size: 24px;
+        width: 460px;
+    }
+    .info-footer {
+        flex-wrap: wrap;
+        height: 300px;
+    }
+    .info-footer * {
+        margin-left: 10px;
+    }
+    .bottom-footer-line {
+        display: none;
+    }
+    #last {
+        display: none;
+    }
+    .cards {
+        flex-wrap: wrap;
+    }
+    .card {
+        margin-bottom: 25px;
+    }
+    .start-text {
+        font-size: 24px;
+    }
+    .rec-actual {
+        display: none;
+    }
+    #kurwa {
+        display: none;
+    }
+    #checks {
+        display: none;
+    }
+    .mail-bottom {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .reasons-inner {
+        flex-wrap: wrap;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
 }
